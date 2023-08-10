@@ -1,0 +1,1173 @@
+body{
+    font-family:  Helvetica;
+}
+
+#top{
+    width: 100%;
+    height: 26px;
+    color: white;
+    background-color: #0B0B0B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: -10px;
+    position: fixed;
+}
+
+#top img{
+    width: 11px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#top p{
+    padding-top: 3px;
+    margin-top: -0px;
+}
+
+#nav{
+    width: 100%;
+    height: 45px;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px solid #F4F4F6;
+    position: fixed;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.header{
+    margin-top: -2px;
+    height: 100%;
+    width: 80px;
+    padding-right: 35px;
+    margin-left: 70px;
+    margin-top: 3px;
+    text-align: right;
+    border-right: 2px solid #F4F4F6;
+    font-size: 14px;
+}
+
+#nav h1{
+    margin-top: -2px;
+}
+
+.nav-list img{
+    width: 12px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+.nav-p{
+    margin-left: -78px;
+    display: flex;
+}
+
+.nav-p img{
+    padding-left: 7px;
+}
+
+.nav-list ul{
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+.nav-list{
+    display: flex;
+    margin-right: 460px;
+    padding-left: 30px;
+    width: 700px;
+}
+
+.nav-aw{
+    display: flex;
+}
+
+.nav-aw img{
+    padding-left: 7px;
+}
+
+
+.nav-icon{
+    width: 300px;
+
+}
+
+.nav-icon img{
+    width: 18px;
+    height: 18px;
+    padding-right: 20px;
+    padding-left: 20px ;
+    border-left: 2px solid #F4F4F6;
+    margin-top: 12px;
+}
+
+.nav-bar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 5px;
+}
+
+.menu{
+    display: none;
+}
+
+.basket{
+    display: none;
+}
+
+#main{
+    width: 100%;
+    height: 500px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-text{
+    width: 42%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+.main-text h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.p1{
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.p2{
+    font-size: 12px;
+    margin-top: -0px;
+}
+
+.trust{
+    margin-top: -10px;
+}
+
+.trust h3{
+    margin-left: -33px;
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+.h2{
+    line-height: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+}
+
+.trust img{
+    width: 60px;
+}
+
+.green-bg img{
+    width: 35px;
+    margin-top: -13px;
+}
+
+.btn{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.bt1{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0B0B0B;
+    color: white;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bt1:hover{
+    background-color: #F58523;
+}
+
+.bt2{
+    width: 120px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: white;
+    color: #0B0B0B;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+}
+
+.main-pic img{
+    height: 100%;
+}
+
+
+.health{
+    width: 50px;
+    height: 10px;
+    background-color: pink;
+}
+
+.brands{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brands img{
+    width: 30px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ------------------------------------------------NEXT SECTION--------------------------------------------------------- */
+
+.pic-info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+   
+}
+
+.info-left{
+    width: 49%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(/Images/greenpack.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info-left h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    width: 300px;
+    background-color: #0B0B0B;
+    padding-left: 6px;
+}
+
+.info-left p{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    padding: 4px;
+    background-color: #0B0B0B;
+}
+
+.info-right{
+    width: 49%;
+    height: 100%;
+    background-color: pink;
+    border-radius: 10px;
+    background-image: url(/Images/vibe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info-right h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    background-color: #0B0B0B;
+    padding-left: 6px;
+    padding-right: 5px;
+}
+
+.info-right p{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    padding: 4px;
+    background-color: #0B0B0B;
+}
+
+.info-p{
+    height: 100px;
+    margin-top: -10px;
+}
+
+.left-p2{
+    margin-top: -13px;
+}
+
+
+.left-p3{
+    margin-top: -13px;
+}
+
+.info-leftext{
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+
+.info-rightext{
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.right-h2{
+    margin-top: -22px;
+}
+
+
+.right-p1{
+    margin-top: -10px;
+}
+
+
+.right-p2{
+    margin-top: -13px;
+}
+
+.bt3{
+    width: 165px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    background-color: #0B0B0B;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bt3:hover{
+    background-color: #F58523;
+}
+
+
+/* ------------------------------------LADY SECTION---------------------------------------------------- */
+
+#lady{
+    height: 500px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.lady-pics{
+    height: 100%;
+    width: 49%;
+    background-image: url(/Images/mainlady.jpg);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.lady-text{
+    height: 100%;
+    width: 49%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.lady-list img{
+    width: 30px;
+    padding-right: 3px;
+}
+
+.lady-list p{
+    margin-left: -15px;
+}
+
+.lady-p1{
+    margin-top: -13px;
+}
+
+.lady-p2{
+    margin-top: -35px;
+}
+
+
+.lady-p3{
+    margin-top: -35px;
+}
+
+
+.lady-p4{
+    margin-top: -35px;
+}
+
+
+.lady-p5{
+    margin-top: -35px;
+}
+
+.lady-header1{
+    line-height: 9px;
+}
+
+.lady-header2{
+    display: none;
+}
+
+.lady-textarea{
+    font-size: 17px;
+    width: 420px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.lady-textarea p{
+    padding-top: 10px;
+}
+
+.lady-textarea h2{
+    font-size: 45px;
+}
+
+.bt4{
+    width: 185px;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #0B0B0B;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bt4:hover{
+    background-color: #F58523;
+}
+
+
+/* -------------------------------------------------------MAN-SECTION----------------------------------- */
+
+#man{
+    height: 500px;
+    width: 95%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.man-pics{
+    height: 100%;
+    width: 49%;
+    background-image: url(/Images/mainman.jpg);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.man-text{
+    height: 100%;
+    width: 49%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.man-list img{
+    width: 30px;
+    padding-right: 3px;
+}
+
+.man-list p{
+    margin-left: -15px;
+}
+
+.man-p1{
+    margin-top: -13px;
+}
+
+.man-p2{
+    margin-top: -35px;
+}
+
+
+.man-p3{
+    margin-top: -35px;
+}
+
+
+
+.man-header{
+    line-height: 9px;
+}
+
+.man-header2{
+    display: none;
+}
+
+.man-textarea{
+    font-size: 17px;
+    width: 420px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.man-textarea p{
+    padding-top: 10px;
+}
+
+.man-textarea h2{
+    font-size: 45px;
+}
+
+.bt4{
+    width: 185px;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #0B0B0B;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bt4:hover{
+    background-color: #F58523;
+}
+
+/* -----------------------------------------------------BLACK BACKGROUND SECTION-------------------------------------- */
+
+#black-bg{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+}
+
+#black-bg h3{
+    font-size: 22px;
+}
+
+
+#black-bg {
+    font-size: 17px;
+}
+
+.sub1{
+    display: flex;
+    width: 320px;
+    margin: auto;
+}
+
+
+.sub2{
+    display: flex;
+    width: 330px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.sub3{
+    display: flex;
+    width: 320px;
+    margin: auto;
+}
+
+
+.sub1 img{
+    width: 40px;
+    padding-right: 30px;
+    margin-top: -60px;
+}
+
+
+.sub2 img{
+    width: 40px;
+    padding-right: 30px;
+    margin-top: -50px;
+}
+
+
+.sub3 img{
+    width: 35px;
+    padding-right: 30px;
+    margin-top: -70px;
+}
+
+
+/* -----------------------------------------------------DIETITIAN SECTION-------------------------------------------------- */
+
+#reg{
+    width: 95%;
+    height: 380px;
+    margin: auto;
+}
+
+.diet-head img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+#reg h2{
+    font-size: 45px;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+
+.diet-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.diet-box1{
+    width: 32%;
+    height: 290px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+
+.diet-box1 p{
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 5px;
+    color: #545454;
+}
+
+
+.diet-box2 p{
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 5px;
+    color: #545454;
+}
+
+
+.diet-box3 p{
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 5px;
+    color: #545454;
+}
+
+.diet-p{
+    font-size: 17px;
+}
+
+
+.diet-box2{
+    width: 32%;
+    height: 290px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+
+.diet-box3{
+    width: 32%;
+    height: 290px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+.diet-head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.diet-head p{
+    width: 70%;
+    padding-left: 10px;
+    color: black;
+}
+
+
+/* ----------------------------------------------------------ORDER SECTION------------------------------------------ */
+
+#order{
+    width: 100%;
+    height: 560px;
+    background-color: #F6F6F6;
+    margin-top: 100px;
+}
+
+#order h2{
+    font-size: 45px;
+    padding-top: 40px;
+}
+
+.bt5{
+    width: 185px;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 0px;
+    background-color: #0B0B0B;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bt5:hover{
+    background-color: #F58523;
+}
+
+.order-box{
+    width: 200px;
+    height: 290px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.order-box img{
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    transition: 1s all ease-in-out;
+}
+
+/* .order-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgb(63, 61, 61);
+    transition: 1s all ease-in-out;
+} */
+
+.order-box h3{
+    font-size: 12px;
+    background-color: #FC9C38;
+    border-radius: 5px;
+    width: fit-content;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.order-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.order-content img{
+    width: 100%;
+    height:75% ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.order-content p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.orange-p{
+    color: #F68D32;
+    margin-top: -15px;
+}
+
+.hover-box{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* ------------------------------------------------------MEAL SECTION----------------------------------- */
+
+#meal{
+    width: 100%;
+    height: 600px;
+}
+
+.meal-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+}
+
+.meal-text{
+    width: 47%;
+    margin-left: 30px;
+}
+
+.meal-text h2{
+    font-size: 45px;
+}
+
+
+.under-t{
+    font-size: 17px;
+    margin-top: -15px;
+}
+
+.meal-trust{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.meal-trust h3{
+    margin-left: -33px;
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+.meal-trust img{
+    width: 35px;
+}
+
+.meal-trust h3 img{
+    width: 60px;
+}
+
+.meal-names{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.KB{
+    height: 240px;
+    width: 31%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #545454;
+    background-color: #F6F6F6
+}
+
+.CS{
+    height: 240px;
+    width: 31%;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #545454;
+    background-color: #F6F6F6
+}
+
+
+.PR{
+    height: 240px;
+    width: 31%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 30px;
+    color: #545454;
+    background-color: #F6F6F6
+}
+
+
+.KB-head{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.CS-head{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.PR-head{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.head-img{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.KB-head  h2{
+    color: #F58523;
+    margin-left: 23px;
+    
+}
+
+
+.CS-head  h2{
+    color: #FCB574;
+    margin-left: 23px;
+    
+}
+
+
+.PR-head  h2{
+    color: #025090;
+    margin-left: 23px;
+    
+}
+
+.head-text{
+    margin-left: 15px;
+    margin-top: 10px;
+    line-height: 10px;
+}
+
+.head-text h4{
+    margin-top: 10px;
+    color: black;
+}
+
+.head-text img{
+    width: 16px;
+    margin-top: -5px;
+}
+
+.meal-p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+
+/* ---------------------------------------------------------------------------FAME SECTION----------------------------------------------------- */
+
+#fame{
+    width: 100%;
+    height: 440px;
+    background-color: #F6F6F6;
+    margin-top: -30px;
+}
+
+.fame-1h2{
+    font-size: 45px ;
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+#fame p{
+    margin-top: -25px;
+    margin-left: 30px;
+    color: #545454;
+}
+
+#fame span{
+    color: #F58523;
+}
+
+#fame img{
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.fame-pics{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.fame-2h2{
+    display: none;
+}
+
+
+/* ----------------------------------------------------------------------------SIGN SECTION-------------------------------------------------------- */
+
+
+#sign{
+    width: 100%;
+    height: 250px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vip{
+    color: white;
+    width: 32%;
+    height: 100%;
+    margin-left: 110px;
+}
+
+.vip h2{
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.vip p{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.sign-up{
+    color: white;
+    width: 38%;
+    height: 100%;
+    margin-right: 120px;
+}
+
+.vip img{
+    width: 45px;
+    margin-bottom: -15px;
+    padding-right: 10px;
+}
+
+.sign-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 480px;
+    height: 58px;
+    margin-left: 20px;
+    margin-top: 55px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #545454;
+}
+
+.sign-btn input{
+    margin-right: 20px;
+}
+
+.green-up{
+    width: 22%;
+    height: 100%;
+    background-color: #35BE5A;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -6px;
+    margin-top: -1px;
+}
+
+.green-up p{
+    margin-top: 20px;
+}
+
+.btn-text{
+    width: 80%;
+}
+
+.btn-text p{
+    margin-right: 170px;
+}
+
+.btn-p{
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+/* -----------------------------------------------------------------------COUNTRIES SECTION------------------------------------------------ */
+
+.countries{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-evenly;
+    font-size: 13px;
+    color: #70abd5;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+.countries span{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------FOOTER------------------------------ */
+
+#footer{
+    width: 100%;
+    height: 550px;
+    background-color: #F6F6F6;
+    margin-top: 60px;
+}
+
+#footer h2{
+    font-size: 45px;
+    margin-left: 200px;
+    padding-top: 40px;
+    margin-bottom: -9px;
+}
+
+
+.footer-list p{
+    color: #545454;
+    font-size: 14px;
+    line-height: 11px;
+    margin-top: 10px;
+}
+
+.footer-list h4{
+    font-size: 16px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: 500px;
+    margin-left: 200px;
+}
