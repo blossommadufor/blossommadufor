@@ -381,9 +381,9 @@ body{
     height: 100%;
     width: 49%;
     background-image: url(Images/mainlady.jpg);
-    border-radius: 10px;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }
 
 .lady-text{
