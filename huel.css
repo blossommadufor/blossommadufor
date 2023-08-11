@@ -396,6 +396,7 @@ body{
 .lady-list img{
     width: 30px;
     padding-right: 3px;
+    object-fit: cover;
 }
 
 .lady-list p{
@@ -496,6 +497,7 @@ body{
 .man-list img{
     width: 30px;
     padding-right: 3px;
+    object-fit: cover;
 }
 
 .man-list p{
@@ -690,7 +692,7 @@ body{
 
 .diet-box2{
     width: 32%;
-    height: 290px;
+    height: 310px;
     background-color: #F6F6F6;
     border-radius: 10px;
     margin-top: -40px;
@@ -832,12 +834,14 @@ body{
 }
 
 .meal-text{
-    width: 47%;
+    width: 400px;
     margin-left: 30px;
+    background-color: pink;
 }
 
 .meal-text h2{
-    font-size: 45px;
+    display: none;
+    font-size: 30px;
 }
 
 
