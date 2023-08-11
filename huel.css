@@ -224,7 +224,6 @@ body{
 .health{
     width: 50px;
     height: 10px;
-    background-color: pink;
 }
 
 .brands{
@@ -258,7 +257,7 @@ body{
     width: 49%;
     height: 100%;
     border-radius: 10px;
-    background-image: url(/Images/greenpack.jpg);
+    background-image: url(Images/greenpack.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -286,7 +285,7 @@ body{
     height: 100%;
     background-color: pink;
     border-radius: 10px;
-    background-image: url(/Images/vibe.jpg);
+    background-image: url(Images/vibe.jpg);
     background-position: center;
     background-size: cover;
 }
