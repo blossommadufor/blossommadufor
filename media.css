@@ -303,7 +303,7 @@
     /* display: none; */
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 93%;
     height: 100%;
     margin-top: 30px;
     padding-right: 26px;
@@ -329,17 +329,17 @@
 }
 
 .sub1 p{
-    padding-right: 40px;
+    padding-right: 10px;
 }
 
 
 .sub2 p{
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 
 .sub3 p{
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 
