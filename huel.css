@@ -14,6 +14,11 @@ body{
     position: fixed;
 }
 
+
+#top-show{
+    display: none;
+}
+
 #top img{
     width: 11px;
     padding-left: 200px;
@@ -834,14 +839,13 @@ body{
 }
 
 .meal-text{
-    width: 400px;
+    width: 700px;
     margin-left: 30px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .meal-text h2{
-    display: none;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 
