@@ -315,17 +315,24 @@
 
 .sub1{
     width: 100%;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    margin-bottom: 0px;
 }
 
 
 .sub2{
     width: 100%;
+    padding-top: -0px;
+    margin-top: -10px;
 }
 
 
 .sub3{
     width: 100%;
-    padding-top: 50px;
+    padding-top: 5px;
+    margin-top: -10px;
+    padding-bottom: 15px;
 }
 
 .sub1 p{
