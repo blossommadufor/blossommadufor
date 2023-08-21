@@ -31,18 +31,26 @@
 #nav{
     display: unset;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    width: 98%;
+    width: 100vw;
     margin-left: -5px;
     margin-top: -24px;
 }
 
 #nav h1{
     display: unset;
-    margin-right: 50px;
+    /* text-align: center; */
+    width: 100%;
+    /* margin-right: 50px; */
+    /* background-color: yellow; */
     font-size: 30px;
 }
-
+.header h1{
+    /* background-color: indigo; */
+    width: 100%;
+    margin: 0px;
+}
 .nav-list ul{
     display: none;
 }
@@ -61,9 +69,11 @@
     display: unset;
     border-right: none;
     width: 60%;
-    margin-left: 0px;
-    margin: auto;
-    /* text-align: center; */
+    margin: 0px;
+    padding: 0px;
+    /* margin: auto; */
+    text-align: center;
+    /* background-color: yellow; */
 }
 
 .menu{
