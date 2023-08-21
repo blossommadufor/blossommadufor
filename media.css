@@ -39,7 +39,7 @@
 
 #nav h1{
     display: unset;
-    margin-right: 28px;
+    margin-right: 65px;
     font-size: 30px;
 }
 
@@ -309,15 +309,44 @@
     padding-right: 26px;
 }
 
-#black-bg img{
+/* #black-bg img{
     padding-left: 20px;
-}
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+} */
 
 .sub1{
     width: 100%;
     padding-bottom: 0px;
     padding-top: 15px;
     margin-bottom: 0px;
+}
+
+.sub1 img{
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+
+.sub2 img{
+    width: 45px;
+    height: 40px;
+    padding-left: 20px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+
+.sub3 img{
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    object-fit: cover;
+    margin-top: 30px;
 }
 
 
