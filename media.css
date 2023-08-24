@@ -221,13 +221,11 @@
 }
 
 .lady-text{
-    /* background-color: plum; */
     height: 500px;
     width: 100%;
 }
 
 .lady-textarea{
-    /* background-color: palevioletred; */
     height: 500px;
     width: 95%;
     margin-left: -0px;
@@ -249,6 +247,7 @@
 
 .lady-list p{
     font-size: 12px;
+    color: black;
 }
 
 
