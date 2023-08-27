@@ -132,7 +132,7 @@ body{
 }
 
 #main{
-    width: 100%;
+    width: 40%;
     height: 550px;
     background-color: #FAFAFA;
     display: flex;
@@ -140,20 +140,22 @@ body{
 }
 
 .main-text{
-    width: 42%;
+    width: 75%;
     height: 88%;
     margin-top: 50px;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 
 .main-text h2{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 600;
+    line-height: 55px;
+    width: 400px;
 }
 
 .p1{
-    padding-top: 5px;
+    margin-top: -10px;
     font-size: 16px;
     line-height: 30px;
 }
@@ -223,6 +225,7 @@ body{
 
 .main-pic img{
     height: 100%;
+    /* width: 20%; */
 }
 
 
@@ -245,6 +248,22 @@ body{
     background-size: cover;
 }
 
+.brands .icon{
+    margin-top: 8px;
+    width: 60px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.brands .icon1{
+    margin-top: -2px ;
+    width: 60px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
 
 /* ------------------------------------------------NEXT SECTION--------------------------------------------------------- */
 
@@ -259,7 +278,7 @@ body{
 }
 
 .info-left{
-    width: 50%;
+    width: 49.3%;
     height: 100%;
     border-radius: 10px;
     background-image: url(Images/greenpack.jpg);
@@ -287,7 +306,7 @@ body{
 }
 
 .info-right{
-    width: 50%;
+    width: 49.3%;
     height: 100%;
     border-radius: 10px;
     background-image: url(Images/vibe.jpg);
@@ -460,7 +479,7 @@ body{
 }
 
 .bt4{
-    width: 185px;
+    width: 200px;
     height: 50px;
     border: none;
     font-weight: 500;
@@ -556,11 +575,11 @@ body{
 }
 
 .bt4{
-    width: 185px;
+    width: 200px;
     height: 50px;
     border: none;
     font-weight: 500;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-top: 30px;
     background-color: #0B0B0B;
     color: white;
@@ -585,55 +604,41 @@ body{
 }
 
 #black-bg h3{
-    font-size: 22px;
+    font-size: 20px;
+    margin: 0;
 }
 
 
 #black-bg {
-    font-size: 17px;
+    font-size: 14px;
 }
 
-.sub1{
+.black-con{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+}
+
+
+.sub{
     display: flex;
     width: 320px;
+    height: 120px;
     margin: auto;
+    padding: 20px;
+    gap: 30px;
 }
 
-
-.sub2{
-    display: flex;
-    width: 330px;
-    margin: auto;
-    margin-top: 50px;
+.sub p{
+    width: 250px;
+    font-size: 18px;
 }
 
-
-.sub3{
-    display: flex;
-    width: 320px;
-    margin: auto;
-}
-
-
-.sub1 img{
-    width: 40px;
-    padding-right: 30px;
-    margin-top: -60px;
-}
-
-
-.sub2 img{
-    width: 40px;
-    padding-right: 30px;
-    margin-top: -50px;
-}
-
-
-.sub3 img{
+.sub img{
     width: 35px;
-    padding-right: 30px;
-    margin-top: -70px;
 }
+
 
 
 /* -----------------------------------------------------DIETITIAN SECTION-------------------------------------------------- */
@@ -656,6 +661,7 @@ body{
     font-size: 45px;
     padding-left: 40px;
     margin-top: 50px;
+    margin-left: -40px ;
 }
 
 .diet-box{
@@ -752,7 +758,7 @@ body{
 #order h2{
     font-size: 45px;
     padding-top: 40px;
-    margin-left: 30px;
+    margin-left: 42px;
 }
 
 .bt5{
@@ -762,7 +768,7 @@ body{
     font-weight: 500;
     border-radius: 10px;
     margin-top: 0px;
-    margin-left: 30px;
+    margin-left: 42px;
     background-color: #0B0B0B;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -832,9 +838,10 @@ body{
 }
 
 .hover-box{
-    width: 100%;
+    width: 95%;
     height: 300px;
     margin-top: 30px;
+    margin-left: 35px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -1042,12 +1049,13 @@ body{
 }
 
 .fame-pics{
-    width: 100%;
+    width: 95%;
     height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 50px;
+    margin-left: 35px;
 }
 
 .fame-2h2{
@@ -1192,13 +1200,14 @@ body{
 
 .footer-list p{
     color: #545454;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 11px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .footer-list h4{
-    font-size: 16px;
+    font-size: 14px;
+    padding-bottom: 15px;
 }
 
 .footer-list{
@@ -1208,4 +1217,103 @@ body{
     width: 600px;
     height: 500px;
     margin-left: 200px;
+}
+
+.foot-content{
+    display: flex;
+}
+
+.foot-img{
+    /* background-color: palevioletred; */
+    width: 270px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 280px;
+}
+
+#footer img{
+    /* width: 17px; */
+}
+
+.social{
+    /* background-color: pink; */
+    width: 130px;
+    margin-left: 140px;
+}
+
+.social img{
+    width: 16px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+}
+
+.flag{
+    width: 3px;
+    background-color: plum;
+    padding: 5px;
+    font-size: 11px;
+    color: #7b7a7a;
+}
+
+.logo{
+    /* background-color: plum; */
+    width: 236px;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+
+.logo img{
+    width: 40px;
+    object-fit: cover;
+    padding-left: 5px;
+}
+
+.logo .visa{
+    width: 45px;
+    object-fit: cover;
+} 
+
+.logo .mc{
+    width: 28px;
+    object-fit: cover;
+    background-position: center;
+    background-size: contain;
+}
+
+.logo .pay{
+    width: 40px;
+    object-fit: cover;
+}
+
+.logo .amex{
+    width: 30px;
+    object-fit: cover;
+    margin-bottom: -8px;
+}
+
+.logo .paypal{
+    width: 50px;
+    object-fit: cover;
+    /* padding-left: 13px; */
+}
+
+.creds{
+    /* background-color: pink; */
+    width: 131px;
+    font-size: 11px;
+    color: #545454;
+    margin-left: 143px;
+}
+
+.social .insta{
+    width: 18px ;
+    height: 13px;
+}
+
+.social .tube{
+    height: 15px;
+    width: 17px ;
+    object-fit: cover;
 }

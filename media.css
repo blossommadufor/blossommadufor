@@ -1,11 +1,10 @@
 #top{
     display: none;
-    
 }
 
 #top-show{
     display: unset;
-    width: 98%;
+    width: 99vw;
     height: 26px;
     color: white;
     background-color: #0B0B0B;
@@ -13,14 +12,14 @@
     font-size: 9px;
     text-align: center;
     margin-top: -50px;
-    margin-left: -5px;
+    margin-left: -6px;
     object-fit: cover;
     position: fixed;
 }
 
 
 #top-show img{
-    display: none;
+    display: unset;
     width: 10px;
     /* padding-left: 200px;
     padding-right: 200px; */
@@ -33,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 100vw;
+    width: 98vw;
     margin-left: -5px;
     margin-top: -24px;
 }
@@ -41,7 +40,7 @@
 #nav h1{
     display: unset;
     /* text-align: center; */
-    width: 100%;
+    width: 50%;
     /* margin-right: 50px; */
     /* background-color: yellow; */
     font-size: 30px;
@@ -93,24 +92,29 @@
 }
 
 #main{
+    /* background-color: teal; */
     display: unset;
-    width: 100%;
+    width: 99vw;
 }
 
 .main-text{
-    width: 100%;
+    width: 99vw;
     background-color: #FAFAFA;
-    margin-left: 0%;
+    margin-left: -6px;
     padding-top: 15px;
     text-align: center;
 }
 
 .main-text h2{
+    width: 90vw;
+    margin-left: 5px;
     font-size: 30px;
+    /* background-color: teal; */
 }
 
 .main-pic img{
-    width: 100%;
+    width: 99vw;
+    margin-left: -5px;
 }
 
 .p1{
@@ -141,8 +145,20 @@
 
 
 .brands{
-    display: unset;
+    display: none;
     display: flex;
+}
+
+.brands p{
+    display: none;
+}
+
+.icon1{
+    display: none;
+}
+
+.icon{
+    display: none;
 }
 
 
@@ -152,8 +168,9 @@
 }
 
 .info-left{
-    width: 100%;
+    width: 99vw;
     height: 320px;
+    margin-left: -6px;
     margin-top: -80px;
     padding-top: 0px;
 }
@@ -169,7 +186,6 @@
     margin-left: -5px;
 }
 .info-p{
-    /* background-color: pink; */
     width: 250px;
     height: 120px;
 }
@@ -180,9 +196,10 @@
 }
 
 .info-right{
-    width: 100%;
+    width: 99vw;
     height: 330px;
     margin-top: -50px;
+    margin-left: -6px;
 }
 
 .info-rightext{
@@ -221,18 +238,22 @@
 }
 
 .lady-text{
-    height: 500px;
+    display: unset;
+    /* background-color: tan; */
+    height: 510px;
     width: 100%;
 }
 
 .lady-textarea{
+    /* background-color: teal; */
     height: 500px;
-    width: 95%;
+    width: 92%;
     margin-left: -0px;
     padding-left: 15px;
 }
 
 .lady-p{
+    width: 93%;
     line-height: 25px;
     font-size: 15px;
 }
@@ -258,11 +279,15 @@
 
 
 #man{
-    width: 100%;
+    /* background-color: teal; */
+    width: 99vw;
     height: 100%;
     display: unset;
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-left: -6px;
 }
 
 .man-header{
@@ -275,7 +300,8 @@
 }
 
 .man-pics{
-    width: 100%;
+    width: 99vw;
+    margin-left: -0px;
     height: 400px;
     object-fit: cover;
 }
@@ -299,7 +325,7 @@
 }
 
 .man-textarea{
-    width: 86%;
+    width: 85vw;
     margin-left: -0px;
     padding-left: 15px;
 }
@@ -309,82 +335,114 @@
 }
 
 #black-bg{
-    /* display: none; */
+    display: unset;
     display: flex;
     flex-direction: column;
-    width: 93%;
+    width: 94%;
     height: 100%;
     margin-top: 30px;
+    margin-left: -5px;
     padding-right: 26px;
 }
 
-/* #black-bg img{
-    padding-left: 20px;
-    width: 35px;
-    height: 35px;
-    object-fit: cover;
-} */
+.black-con{
+    width: 97vw;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .sub1{
-    width: 100%;
-    padding-bottom: 0px;
+    display: unset;
+    display: flex;
+    width: 83vw;
+    padding-bottom: 30px;
     padding-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .sub1 img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 25px;
     padding-left: 20px;
-    object-fit: cover;
     margin-top: 30px;
+    margin-left: -15px;
 }
 
 
 .sub2 img{
-    width: 45px;
-    height: 40px;
+    width: 30px;
+    height: 27px;
     padding-left: 20px;
     object-fit: cover;
+    margin-left: -15px;
     margin-top: 30px;
 }
 
 
 .sub3 img{
-    width: 40px;
-    height: 40px;
-    padding-left: 20px;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
     object-fit: cover;
     margin-top: 30px;
 }
 
 
 .sub2{
-    width: 100%;
-    padding-top: -0px;
+    display: flex;
+    width: 83vw;
+    padding-top: 0px;
     margin-top: -10px;
 }
 
 
 .sub3{
-    width: 100%;
+    display: flex;
+    width: 83vw;
     padding-top: 5px;
-    margin-top: -10px;
+    margin-top: 10px;
     padding-bottom: 15px;
 }
 
 .sub1 p{
-    padding-right: 10px;
+    width: 197px ;
+    font-size: 13px;
+}
+
+.sub1 h3{
+    width: 70vw;
+}
+
+.sub2 h3{
+    width: 196px;
 }
 
 
+
 .sub2 p{
-    padding-right: 10px;
+    width: 195px;
+    font-size: 13px;
 }
 
 
 .sub3 p{
+    font-size: 13px;
+    width: 180px;
     padding-right: 10px;
+}
+
+.sub_text_container{
+    width: 250px;
+    height: 100%;
+    margin-left: -12px;
+}
+
+.sub2_div{
+    width: 250px;
+    height: 100%;
+    margin-left: -12px;
 }
 
 
@@ -393,15 +451,17 @@
 }
 
 #reg h2{
-    width: 85%;
+    margin-left: 20px;
+    padding: 0px;
+    width: 70%;
     font-size: 28px;
 }
 
 .diet-box2{
     display: unset;
-    width: 99%;
-    height: 400px;
-    margin-left: 2px;
+    width: 100vw;
+    height: 435px;
+    margin-left: -0px;
 }
 
 
@@ -425,15 +485,18 @@
 
 
 #order{
-    width: 100%;
+    display: unset;
+    width: 94vw;
     height: 100%;
     background-color: #F6F6F6;
     margin-top: 100px;
+    margin-left: -5px;
 }
 
 .hover-box{
     height: 100%;
-    width: 100%;
+    width: 88vw;
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -441,7 +504,7 @@
 }
 
 .order-box{
-    width: 160px;
+    width: 200px;
     height: 260px;
     margin-bottom: 15px;
 }
@@ -462,39 +525,49 @@
 
 
 .meal-text h2{
+    /* display: none; */
     font-size: 28px;
     width: 230px;
     margin-top: 50px;
+    margin-left: 10px;
     padding-bottom: 25px;
 }
 
 .meal-text{
+    /* display: none; */
     width: 238px;
     height: 300px;
     margin-left: 15px;
 }
 
 .meal-names{
-    width: 100%;
+    /* display: none; */
+    /* background-color: teal; */
+    width: 94vw;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    margin-left: -5px;
 }
 
 .under-t{
-    width: 240px;
+    width: 220px;
     padding-bottom: 20px;
+    line-height: 25px;
 }
 
 
 .KB{
-    width: 100%;
+    width: 98vw;
     margin-left: -0px;
     margin-top: 250px;
 }
 
 .PR{
-    width: 100%;
+    width: 98vw;
+    height: 100%;
+    margin-left: -0px;
     margin-top: 30px;
 }
 
@@ -503,9 +576,11 @@
 }
 
 #fame{
-    width: 100%;
+    /* background-color: teal; */
+    width: 98vw;
     height: 100%;
-    margin-top: 300px;
+    margin-left: -5px;
+    margin-top: 320px;
     padding-top: 35px;
 }
 
@@ -523,8 +598,10 @@
 
 
 .fame-pics{
+    /* background-color: thistle; */
     width: 100%;
     height: 100%;
+    margin-left: -0px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -540,7 +617,9 @@
 }
 
 #sign{
-    width: 100%;
+    /* display: none; */
+    width: 98vw;
+    margin-left: -5px;
     margin-top: 70px;
     height: 100%;
     display: flex;
@@ -551,20 +630,29 @@
 .sign-btn{
     width: 80%;
     margin-top: 30px;
+    margin-left: 30px;
+    background-color: white;
 }
 
 .sign-up{
     width: 100%;
 }
 
+.btn-text{
+    height: 100%;
+    padding-left: px;
+}
+
 .btn-text p{
+    font-size: 15;
     width: 100%;
 }
 
 .btn-p{
     padding-bottom: 40px;
     width: 90%;
-    font-size: 12px;
+    font-size: 11px;
+    margin-left: 30px;
 }
 
 .btn-p p{
@@ -577,13 +665,14 @@
 }
 
 .vip h2{
-    width: 250px;
+    width: 240px;
     font-size: 24px;
 }
 
 .vip p{
     width: 80%;
-    font-size: 15px;
+    font-size: 14px;
+    margin-left: 30px;
 }
 
 #country{
@@ -592,7 +681,9 @@
 
 
 #footer{
-    width: 100%;
+    /* display: none; */
+    width: 96vw;
+    margin-left: -5px;
     padding-right: 5px;
 }
 
@@ -621,5 +712,9 @@
 }
 
 .help{
+    display: none;
+}
+
+.foot-img{
     display: none;
 }
